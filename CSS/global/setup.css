@@ -1,0 +1,19 @@
+/* Esse é um arquivo CSS para normalizar o seu site. configuração padrão */
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 200vh;
+    background: var(--bg-clr-linear);
+}
+
+a{
+    cursor: pointer;
+}

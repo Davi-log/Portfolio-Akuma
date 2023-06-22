@@ -1,0 +1,18 @@
+/*Personaliza o scroll do site*/
+html::-webkit-scrollbar{
+    width: 0.375rem;
+    height: 0.375rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: var(--bg-clr-linear);
+    width: 0.375rem;
+    height: 0.375rem;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    width: 0.375rem;
+    height: 0.375rem;
+    border-radius: 0.3125rem;
+}

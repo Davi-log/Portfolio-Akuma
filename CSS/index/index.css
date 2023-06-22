@@ -1,0 +1,4 @@
+/* Importanto as configurações globais de CSS */
+@import '../global/global.css';
+
+@import './navbar.css';

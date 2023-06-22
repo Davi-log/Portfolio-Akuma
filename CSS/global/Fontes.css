@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: 'Outfit-Regular';
+    font-weight: 400;
+    font-display: swap;
+    src: url('../../Arquivos/Fontes/Outfit-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Outfit-Bold';
+    font-weight: bold;
+    font-display: swap;
+    src: url('../../Arquivos/Fontes/Outfit-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Nunito-sans-Regular';
+    font-weight: 400;
+    font-display: swap;
+    src: url('../../Arquivos/Fontes/NunitoSans.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Nunito-sans-Medium';
+    font-weight: 500;
+    font-display: swap;
+    src: url('../../Arquivos/Fontes/NunitoSans.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Nunito-sans-SemiBold';
+    font-weight: 600;
+    font-display: swap;
+    src: url('../../Arquivos/Fontes/NunitoSans.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Nunito-sans-Bold';
+    font-weight: 700;
+    font-display: swap;
+    src: url('../../Arquivos/Fontes/NunitoSans.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Nunito-sans-ExtraBold';
+    font-weight: 800;
+    font-display: swap;
+    src: url('../../Arquivos/Fontes/NunitoSans.woff') format('woff');
+}

@@ -1,0 +1,8 @@
+:root {
+    /* background color*/
+    --bg-clr-linear: linear-gradient(226deg, #42768C 0%, #7CD3DD 100%);
+
+    /* font color*/
+    --font-clr-white: #fff;
+    --font-clr-black: #000;
+}
