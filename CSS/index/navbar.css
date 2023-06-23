@@ -19,8 +19,8 @@ ul{
 .nav-logo,
 .nav-logo{
     position: relative;
-    top: 3rem;
-    left: 3rem;
+    top: 2rem;
+    left: 2rem;
     color: #fff;
     font-weight: 400;
 }
@@ -40,6 +40,7 @@ ul{
     position: fixed;
     bottom: 3rem;
     left: 80vw;
+    z-index: 1;
 }
 
 .nav__toggle{
