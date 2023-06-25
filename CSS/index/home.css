@@ -1,4 +1,4 @@
-/*========== Home ==========*/
+/*========== Home/MOBILE First ==========*/
 .home{
     position: absolute;
     top: -1.5rem;
@@ -9,9 +9,7 @@
     height: 100vh;
 }
 
-/*========== FIM Home ==========*/
-
-/*========== welcom-container ==========*/
+/*========== welcom-container/MOBILE First ==========*/
 .welcome-container{
     position: absolute;
     top: 8rem;
@@ -22,9 +20,7 @@
     flex-direction: column;
 }
 
-/*========== FIM welcom-container ==========*/
-
-/*========== welcome ==========*/
+/*========== welcome/MOBILE First ==========*/
 
 .welcome{
     display: flex;
@@ -46,9 +42,7 @@
     font-size: 1.125rem;
 }
 
-/*========== FIM welcome ==========*/
-
-/*========== react developer ==========*/
+/*========== react developer/MOBILE First ==========*/
 
 .react-developer{
    display: flex;
@@ -63,9 +57,7 @@
     font-size: 2.5rem;
 }
 
-/*========== FIM react developer ==========*/
-
-/*========== paragraph description ==========*/
+/*========== paragraph description/MOBILE First ==========*/
 
 .descript-container{
     width: 100%;
@@ -88,9 +80,7 @@
     color: var(--font-clr-white);
 }
 
-/*========== FIM paragraph description ==========*/
-
-/*========== home-container nuvens ==========*/
+/*========== home-container nuvens/MOBILE First ==========*/
 .home-container{
     position: absolute;
     top: 23rem;
@@ -111,7 +101,7 @@
     right: -5rem;
 }
 
-/*========== mockup-container ==========*/
+/*========== mockup-container/MOBILE First ==========*/
 .mockup-container{
     display: flex;
     align-items: center;
@@ -123,4 +113,36 @@
     border-radius: 1rem;
     border-top: 1px solid #fff;
     border-left: 1px solid #fff;
+}
+
+/*========== /MOBILE First ==========*/
+@media screen and (min-width: 769px) and (max-width: 1440px){
+    .welcome-container{
+        width: 40rem;
+    }
+
+    .presentation{
+        font-size: 2rem;
+    }
+    
+    .presentation span{
+        font-size: 2rem;
+    }
+    
+    .presentation .tech{
+        font-size: 1.5rem;
+    }
+
+    .react-developer h2{
+        font-size: 5rem;
+    }
+    
+    .descript-container{
+        width: 35rem;
+        height: 50%;
+    }
+
+    
+
+
 }

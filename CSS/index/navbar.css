@@ -1,4 +1,4 @@
-/*====== NavBar =====*/
+/*========== Nav Bar/MOBILE First ==========*/
 ul{
     list-style: none;
 }
@@ -15,7 +15,11 @@ ul{
     justify-content: space-between;
     align-items: center;
 }
-/*====== Logo =====*/
+/*==========
+ Fim Nav Bar/MOBILE First 
+==========*/
+
+/*========== Logo/MOBILE First ==========*/
 .nav-logo{
     position: relative;
     top: 2rem;
@@ -33,8 +37,12 @@ ul{
     font-family: 'Outfit-Regular';
     font-size: 2.5rem;
 }
-/*====== Fim Logo =====*/
 
+/*========== 
+Fim Log/MOBILE First 
+==========*/
+
+/*========== Botoes/MOBILE First ==========*/
 .nav__btns{
     position: fixed;
     bottom: 3rem;
@@ -60,8 +68,6 @@ ul{
     color: #fff;
 }
 
-
-
 .nav-list{
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -84,8 +90,11 @@ ul{
 .nav__icon{
     font-size: 1.2rem;
 }
+/*==========
+ Fim botões/MOBILE First 
+==========*/
 
-/* close */
+/*========== Close/MOBILE First ==========*/
 .nav__close{
     font-size: 2rem;
     cursor: pointer;
@@ -95,10 +104,12 @@ ul{
 .nav__close:hover{
     color: #000;
 }
-/* fim close */
+/*==========
+ Fim Close/MOBILE First 
+==========*/
 
 
-
+/*========== media querys/MOBILE First ==========*/
 
 @media screen and (min-width: 0px) and (max-width: 768px){
     .nav-menu{
@@ -115,12 +126,13 @@ ul{
         z-index: 100;
     }
 }
+
 /* Mostra menu JS */
 .show-menu{
     bottom: 0;
 }
 
-
+/*========== media querys/Tablet ==========*/
 @media screen and (min-width: 769px) and (max-width: 1440px){
     .header{
         display: flex;
