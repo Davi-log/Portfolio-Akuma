@@ -155,7 +155,7 @@ Fim Log/MOBILE First
     }
 
     .nav{
-        width: 70%;
+        width: 60%;
         height: 4rem;
         display: flex;
         align-items: center;
@@ -171,4 +171,8 @@ Fim Log/MOBILE First
         display: flex;
         justify-content: space-around;
     }    
+
+    .nav-link{
+        font-size: 1.3rem;
+    }
 }

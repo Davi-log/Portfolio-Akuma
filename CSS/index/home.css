@@ -82,7 +82,7 @@
 
 /*========== home-container nuvens/MOBILE First ==========*/
 .home-container{
-    position: absolute;
+    position: relative;
     top: 23rem;
 }
 .home-container .nuvem1{
@@ -109,16 +109,29 @@
     width: 20rem;
     height: 15rem;
     background-color: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
     border-radius: 1rem;
     border-top: 1px solid #fff;
     border-left: 1px solid #fff;
 }
 
-/*========== /MOBILE First ==========*/
+/*========== media query/resolução desktop ==========*/
 @media screen and (min-width: 769px) and (max-width: 1440px){
+    .home, 
+    .welcome-container, 
+    .home-container{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        top: auto;
+    }
+
+    .home{
+        gap: 5rem;
+    }
+
     .welcome-container{
-        width: 40rem;
+        padding-left: 5rem;
     }
 
     .presentation{
@@ -142,7 +155,52 @@
         height: 50%;
     }
 
-    
+    .descript{
+        width: 25rem;
+        height: 10rem;
+    }
+    .parag-descript{
+        font-size: 1rem;
+    }
+    /*========== Tudo do efeito glass ==========*/
 
+    .home-container{
+        position: relative;
+        top: auto;
+    }
+
+    .home-container .nuvem1{
+        position: absolute;
+        top: 1rem;
+        left: -5rem;
+    }
+    .home-container .nuvem2{
+        position: absolute;
+        top: 20rem;
+        left: 15rem;
+    }
+
+    .home-container .nuvem3{
+        position: absolute;
+        top: 5rem;
+        right: 1rem;
+    }
+
+    .nuvem1 img,
+    .nuvem2 img,
+    .nuvem3 img{
+        width: 17rem;
+    }
+    .mockup-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 45vw;
+        height: 25rem;
+    }
+
+    .imgmockup img{
+        width: 25rem;
+    }
 
 }
